@@ -11,7 +11,7 @@ A RESTful Flask API that returns users information and random cat facts fetched 
 ## Tech Stack
 **Backend:** Flask (Python)
 **API:** Cat Facts API (https://catfact.ninja/fact)
-**Hosting:** Railway
+**Hosting:** Railway (https://intelligent-commitment-production.up.railway.app/me)
 
 ## Prerequisites
 - Python 3.9+
@@ -35,7 +35,7 @@ source venv/bin/activate
 **On Windows:**
 '''bash
 py -m venv venv
-venv\Scrripts\activate
+venv\Scripts\activate
 '''
 
 ### 3. Install dependencies
