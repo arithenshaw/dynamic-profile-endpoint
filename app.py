@@ -23,6 +23,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+@app.route('/')
+def home():
+    return 'Hello, I am Judy. Welcome to my GET endpoint API. To view the endpoints, attach "\me" at the end of the URL'
+
 
 @app.route('/me', methods = ['GET'])
 @limiter.limit("10 per minute")
